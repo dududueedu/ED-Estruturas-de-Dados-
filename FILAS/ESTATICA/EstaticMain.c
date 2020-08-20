@@ -6,7 +6,7 @@ int main(){
 
     printf("------------------");
     printf("\n- Fila  Estática - ");
-    printf("\n--- Atividade 6 -- \n");
+    printf("\n--- Atividade 5 -- \n");
     Fila *f; // ponteiro p ponteiro
     f = criar(); // recebe ponteiro p o primeiro elemento da fila
     
