@@ -11,6 +11,6 @@ int tamanho(Fila* f);
 int vazia(Fila* f);
 int cheia(Fila* f);
 
-int inserir(Fila* f, struct aluno);
+int inserir(Fila* f, struct aluno alu);
 int remover(Fila* f);
 int consultar(Fila* f, struct aluno *alu);
