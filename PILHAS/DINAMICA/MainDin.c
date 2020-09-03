@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include "Estatic.h"
+#include "PilhaDin.h"
 #include <string.h>
 
 int main(){
 
     printf("------------------");
-    printf("\n- Pilha  Estática - ");
-    printf("\n--- Atividade 7 -- \n");
+    printf("\n- Pilha  Dinamica - ");
+    printf("\n--- Atividade 8 -- \n");
     Pilha *p; // ponteiro p ponteiro
-    p = criar(); // recebe ponteiro p o primeiro elemento da fila
+    p = criar(); // recebe ponteiro p o primeiro elemento da pilha
     
     printf("------------------\n");
     printf("-- Pilha criada! --\n");
@@ -50,6 +50,9 @@ int main(){
     //removendo
     printf("\nRemoveu?: ( %i )\n", remover(p));
     printf("Tamanho da Pilha:  %i elemento(s)\n", tamanho(p));   
+    printf("\nRemoveu?: ( %i )\n", remover(p));
+    printf("Tamanho da Pilha:  %i elemento(s)\n", tamanho(p));   
+    printf("\nRemoveu?: ( %i )\n", remover(p));
 
     liberar(p);
     printf("\n\nPilha liberada!\n");
